@@ -49,6 +49,37 @@ header{
     font-size: 20px;
     border: none;
 }
+.eat{
+    background-image: url('./Img/eat.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+.eat .order-btn{
+    padding: 5px 25px;
+    border-radius: 30px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+}
+.eat-text,
+.eat .order-btn{
+    margin:30px;
+}
+.eat-text{
+    font-size: 50px;
+    font-family: 'Permanent Marker', cursive;
+}
+.custom-height{
+    height: 90%;
+}
+.btn-header{
+    padding-right: 10px!important;
+}
+i{
+    cursor: pointer;
+}
 
 @media only screen and (min-width: 900px) {
     .img img{
